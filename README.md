@@ -34,6 +34,7 @@ This project was developed for Airbnb to analyse customer feedback and predict r
 - Applied Nominal to Numerical conversion for correlation analysis
 - Used Weight by Correlation to rank predictors
 **Top Predictors by Correlation Weight:**
+
 | Attribute | Weight |
 |---|---|
 | review_scores_value | 0.816 |
