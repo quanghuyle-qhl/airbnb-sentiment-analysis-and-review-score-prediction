@@ -52,7 +52,7 @@ This project was developed for Airbnb to analyse customer feedback and predict r
 #### Final Model Coefficients
 | Attribute | Coefficient | Interpretation |
 |---|---|---|
-| review_scores_value | 3.943 | Strongest driver — +3.943 pts per unit increase |
+| review_scores_value | 3.943 | Strongest driver: +3.943 pts per unit increase |
 | review_scores_accuracy | 2.379 | +2.379 pts per unit increase |
 | review_scores_cleanliness | 1.986 | +1.986 pts per unit increase |
 | review_scores_communication | 1.519 | +1.519 pts per unit increase |
@@ -73,8 +73,8 @@ All predictors significant (p < 0.05), no multicollinearity (tolerance > 0.1 for
  
 ## Key Findings & Recommendations
  
-- **Value for money** is the strongest predictor of guest satisfaction — hosts should ensure competitive and fair pricing.
-- **Accuracy** is the second most important factor — listing descriptions must closely reflect the actual property.
+- **Value for money** is the strongest predictor of guest satisfaction: hosts should ensure competitive and fair pricing.
+- **Accuracy** is the second most important factor: listing descriptions must closely reflect the actual property.
 - **Cleanliness and communication** are highly valued by guests and should be maintained consistently.
 - **Location** has a slight negative coefficient, likely due to trade-offs in high-demand areas (higher prices, overcrowding).
 - To improve model performance, consider non-linear models and encoding categorical variables (e.g. property type, neighbourhood).
